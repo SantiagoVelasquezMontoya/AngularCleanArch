@@ -1,0 +1,14 @@
+<h1>App USER!!</h1>
+<div class="form-container">
+  <form (ngSubmit)="onSubmit()">
+    <div class="input-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" [(ngModel)]="name" name="name" />
+    </div>
+    <div class="input-group">
+      <label for="job">Job</label>
+      <input type="text" id="job" [(ngModel)]="job" name="job" />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
